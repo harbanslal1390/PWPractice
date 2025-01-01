@@ -19,7 +19,7 @@ test.describe("Api suite",()=>{
             expect(jsonsrepsonse.status()).toBe(200)
            const responsebody=await jsonsrepsonse.json()
            console.log(responsebody[0])
-           console.log(responsebody[0].bookingid)
+           console.log(responsebody[0].bookingid) 
             
         })
     })
