@@ -38,13 +38,13 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'],headless:false },
     },
-    {
-      name: 'Mobile Safari',
-      use: {
-        ...devices['iPhone 12'], // Emulates iPhone 12
-        browserName: 'webkit', headless:false // Use WebKit for Safari testing
-      },
-    },
+    // {
+    //   name: 'Mobile Safari',
+    //   use: {
+    //     ...devices['iPhone 12'], // Emulates iPhone 12
+    //     browserName: 'webkit', headless:false // Use WebKit for Safari testing
+    //   },
+    // },
   
 
     /*{
