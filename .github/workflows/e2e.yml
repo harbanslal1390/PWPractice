@@ -9,9 +9,9 @@ jobs:
             - uses: actions/setup-node@v2
               with:
                 node-version: '14'
-            - name: Install dependencies 
+            - name: Install devDependencies 
               run: npm ci
             - name: Install Playwright 
               run: npx playwright install --with-deps
             - name: Run your tests
-              run: npx playwright test Tests/home.spec.ts
+              run: npx playwright test mytest/Tests/home.spec.ts
