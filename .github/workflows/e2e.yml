@@ -27,3 +27,10 @@ jobs:
 
       - name: Run Tests
         run: npx playwright test mytest/Tests/home.spec.ts
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v2
+        with: 
+          name: TestResultsForGithub
+          path: test-resultsForGithub
