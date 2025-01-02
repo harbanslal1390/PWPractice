@@ -1,8 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","8488","Verify multiple elements","chromium","Thu Jan 02 14:08:42 AEST 2025","passed","Thu Jan 02 14:08:50 AEST 2025","Home page test suite","Tests/home.spec.ts","",""
-"","6994","Verify text is visible or not","chromium","Thu Jan 02 14:08:24 AEST 2025","passed","Thu Jan 02 14:08:31 AEST 2025","Home page test suite","Tests/home.spec.ts","",""
-"","3458","Verify home link is enabled using text and css selector","chromium","Thu Jan 02 14:08:31 AEST 2025","passed","Thu Jan 02 14:08:34 AEST 2025","Home page test suite","Tests/home.spec.ts","",""
-"","6679","Open Home page and verify title","chromium","Thu Jan 02 14:08:00 AEST 2025","passed","Thu Jan 02 14:08:07 AEST 2025","Home page test suite","Tests/home.spec.ts","",""
-"","7403","Verify Search Icon is visible using xpath selector","chromium","Thu Jan 02 14:08:34 AEST 2025","passed","Thu Jan 02 14:08:42 AEST 2025","Home page test suite","Tests/home.spec.ts","",""
-"","7457","Click get started button using CSS selector","chromium","Thu Jan 02 14:08:16 AEST 2025","passed","Thu Jan 02 14:08:24 AEST 2025","Home page test suite","Tests/home.spec.ts","",""
-"","8594","Open About page and verify title","chromium","Thu Jan 02 14:08:07 AEST 2025","passed","Thu Jan 02 14:08:16 AEST 2025","Home page test suite","Tests/home.spec.ts","",""
